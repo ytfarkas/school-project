@@ -19,7 +19,7 @@ import java.util.Scanner;
     else {
         
    System.out.println("Your change is $" + (change/100.0));
-         
+      System.out.println ("Test");      
    int fives = (int)(change / 500);
    int remainder = (int)(change % 500);
    System.out.println(fives + " Five dollar bills");
